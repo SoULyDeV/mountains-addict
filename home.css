@@ -8,20 +8,8 @@ body {
     background: #B48976;
    
 }
-.main {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-    
-}
-img {
-    height: 200px;
-    width: 70%;
-    border-radius: 15px;
+
+a .navbar-brand {
+    color: #B48976;
 }
 
-.descrition {
-    color: aliceblue;
-    text-align: center;
-}
