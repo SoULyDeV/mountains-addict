@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #B48976;
+   
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+img {
+    height: 200px;
+    width: 70%;
+    border-radius: 15px;
+}
+
+.descrition {
+    color: aliceblue;
+    text-align: center;
+}

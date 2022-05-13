@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    height: 100vh;
+    background-image: url("./tobias-keller.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Qwigley', cursive;
+    font-size: 3rem;
+    animation: fadein 1s forwards ease-out;
+    color: #3b0909;
+    transition:0.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        
+    }
+}
+h1:hover {
+    font-size: 3.5rem;
+}
