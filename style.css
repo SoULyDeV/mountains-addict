@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background-image: url("./tobias-keller.jpg");
+    background-image: url("./media/tobias-keller.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
